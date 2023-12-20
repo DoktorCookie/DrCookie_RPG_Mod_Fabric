@@ -14,6 +14,7 @@ public class DrCookiesRPGMod implements ModInitializer {
 	public void onInitialize() {
 
 
+
 		LOGGER.info("Hello Fabric world!");
 	}
 }
