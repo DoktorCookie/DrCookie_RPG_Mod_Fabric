@@ -1,0 +1,11 @@
+{
+
+  "parent": "item/generated",
+  "textures": {
+
+    "layer0": "drcookies_rpg_mod:item/swamp_iron_raw"
+
+  }
+
+
+}
