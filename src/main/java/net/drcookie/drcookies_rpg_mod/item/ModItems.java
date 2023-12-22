@@ -15,6 +15,10 @@ public class ModItems {
     public static final Item SWAMP_IRON_RAW = registerItem("swamp_iron_raw", new Item( new FabricItemSettings()));
     public static final Item SWAMP_IRON_INGOT = registerItem("swamp_iron_ingot", new Item( new FabricItemSettings()));
 
+    public static final Item COIN_COPPER = registerItem("coin_copper", new Item( new FabricItemSettings()));
+
+
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 
         entries.add(SWAMP_IRON_RAW);

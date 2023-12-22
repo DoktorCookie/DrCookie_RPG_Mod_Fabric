@@ -23,6 +23,17 @@ public class ModItemGroups {
 
     );
 
+    public static final ItemGroup DRCOOKIE_RPG_MISC_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(DrCookiesRPGMod.MOD_ID, "rpg_misc"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rpg_misc"))
+                    .icon( () -> new ItemStack(ModItems.COIN_COPPER)).entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.COIN_COPPER);
+
+                    }).build()
+
+    );
+
 
     public static void registerItemGroups(){
 
