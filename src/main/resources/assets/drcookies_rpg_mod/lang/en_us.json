@@ -4,8 +4,13 @@
   "item.drcookies_rpg_mod.swamp_iron_ingot": "Swamp Iron Ingot",
   "item.drcookies_rpg_mod.coin_copper": "Copper Coin",
 
+  "block.drcookies_rpg_mod.swamp_iron_raw_block": "Block of Raw Swamp Iron",
+  "block.drcookies_rpg_mod.swamp_iron_ore": "Swamp Iron Ore",
+
   "itemgroup.rpg_ingredients": "DrCookies RPG Ingredients",
   "itemgroup.rpg_misc": "DrCookies RPG Misc"
 
 
 }
+
+

@@ -1,6 +1,7 @@
 package net.drcookie.drcookies_rpg_mod.item;
 
 import net.drcookie.drcookies_rpg_mod.DrCookiesRPGMod;
+import net.drcookie.drcookies_rpg_mod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,6 +19,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.SWAMP_IRON_RAW);
                         entries.add(ModItems.SWAMP_IRON_INGOT);
+
+                        entries.add(ModBlocks.SWAMP_IRON_RAW_BLOCK);
+                        entries.add(ModBlocks.SWAMP_IRON_ORE);
 
                     }).build()
 

@@ -1,5 +1,6 @@
 package net.drcookie.drcookies_rpg_mod;
 
+import net.drcookie.drcookies_rpg_mod.block.ModBlocks;
 import net.drcookie.drcookies_rpg_mod.item.ModItemGroups;
 import net.drcookie.drcookies_rpg_mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +17,8 @@ public class DrCookiesRPGMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
