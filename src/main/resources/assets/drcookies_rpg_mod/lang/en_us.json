@@ -7,10 +7,8 @@
   "block.drcookies_rpg_mod.swamp_iron_raw_block": "Block of Raw Swamp Iron",
   "block.drcookies_rpg_mod.swamp_iron_ore": "Swamp Iron Ore",
 
-  "itemgroup.rpg_ingredients": "DrCookies RPG Ingredients",
-  "itemgroup.rpg_blocks": "DrCookies RPG Blocks",
-  "itemgroup.rpg_misc": "DrCookies RPG Misc"
-
+  "itemgroup.rpg_misc": "DRPG Misc",
+  "itemgroup.rpg_biome_additions": "DRPG Biome Additions"
 
 }
 
