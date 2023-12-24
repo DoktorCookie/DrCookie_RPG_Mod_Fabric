@@ -32,7 +32,7 @@ public class ModBlocks {
             ));*/
 
             //This copies Block Settings and changes a single entry
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
 
 
     public static final Block SWAMP_IRON_ORE = registerBlock("swamp_iron_ore",

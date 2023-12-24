@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+
+    "###",
+    "###",
+    "###"
+
+  ],
+  "key": {
+    "#": {
+      "item": "drcookies_rpg_mod:swamp_iron_raw"
+    }
+  },
+  "result": {
+
+    "item": "drcookies_rpg_mod:swamp_iron_raw_block"
+  }
+}
