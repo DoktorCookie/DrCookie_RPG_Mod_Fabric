@@ -37,6 +37,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
 
 
+    public static final Block SWAMP_IRON_BLOCK = registerBlock("swamp_iron_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
+
+
 
     //UniformIntProvider: Defines EXP values
     public static final Block SWAMP_IRON_ORE = registerBlock("swamp_iron_ore",
