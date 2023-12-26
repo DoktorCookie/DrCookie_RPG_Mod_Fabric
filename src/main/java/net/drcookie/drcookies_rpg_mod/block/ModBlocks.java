@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -13,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -35,9 +37,20 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
 
 
-    public static final Block SWAMP_IRON_ORE = registerBlock("swamp_iron_ore",
 
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    //UniformIntProvider: Defines EXP values
+    public static final Block SWAMP_IRON_ORE = registerBlock("swamp_iron_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(2f)));
+    //3 Variants for testing purposes
+    public static final Block DEEPSLATE_SWAMP_IRON_ORE = registerBlock("deepslate_swamp_iron_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f)));
+    public static final Block NETHER_SWAMP_IRON_ORE = registerBlock("nether_swamp_iron_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1f)));
+    public static final Block END_STONE_SWAMP_IRON_ORE = registerBlock("end_stone_swamp_iron_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
+
+
+
 
 
     private static Block registerBlock(String name, Block block){

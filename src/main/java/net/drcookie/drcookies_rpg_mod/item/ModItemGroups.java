@@ -33,6 +33,10 @@ public class ModItemGroups {
 
                         //Swamp Stuff: Swamp Iron
                         entries.add(ModBlocks.SWAMP_IRON_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE);
+                        entries.add(ModBlocks.NETHER_SWAMP_IRON_ORE);
+                        entries.add(ModBlocks.END_STONE_SWAMP_IRON_ORE);
+
                         entries.add(ModBlocks.SWAMP_IRON_RAW_BLOCK);
                         entries.add(ModItems.SWAMP_IRON_RAW);
                         entries.add(ModItems.SWAMP_IRON_INGOT);
