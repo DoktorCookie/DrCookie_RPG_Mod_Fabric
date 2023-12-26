@@ -24,6 +24,21 @@ public class ModItemGroups {
 
     );
 
+    public static final ItemGroup DRCOOKIE_RPG_DEV_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(DrCookiesRPGMod.MOD_ID, "rpg_dev"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rpg_dev"))
+                    .icon( () -> new ItemStack(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE)).entries((displayContext, entries) -> {
+
+                        //Ores for test purposes
+                        entries.add(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE);
+                        entries.add(ModBlocks.NETHER_SWAMP_IRON_ORE);
+                        entries.add(ModBlocks.END_STONE_SWAMP_IRON_ORE);
+
+
+                    }).build()
+
+    );
+
     public static final ItemGroup DRCOOKIE_RPG_BIOME_ADDITIONS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(DrCookiesRPGMod.MOD_ID, "rpg_biome_additions"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rpg_biome_additions"))
@@ -33,9 +48,7 @@ public class ModItemGroups {
 
                         //Swamp Stuff: Swamp Iron
                         entries.add(ModBlocks.SWAMP_IRON_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE);
-                        entries.add(ModBlocks.NETHER_SWAMP_IRON_ORE);
-                        entries.add(ModBlocks.END_STONE_SWAMP_IRON_ORE);
+
 
                         entries.add(ModBlocks.SWAMP_IRON_RAW_BLOCK);
                         entries.add(ModBlocks.SWAMP_IRON_BLOCK);

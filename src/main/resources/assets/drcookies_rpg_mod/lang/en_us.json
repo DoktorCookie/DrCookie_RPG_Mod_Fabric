@@ -13,6 +13,7 @@
 
 
   "itemgroup.rpg_misc": "DRPG Misc",
+  "itemgroup.rpg_dev": "DRPG In Development",
   "itemgroup.rpg_biome_additions": "DRPG Biome Additions"
 
 }
