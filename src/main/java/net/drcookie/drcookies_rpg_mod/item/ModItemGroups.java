@@ -38,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_SWAMP_IRON_ORE);
 
                         entries.add(ModBlocks.SWAMP_IRON_RAW_BLOCK);
+                        entries.add(ModBlocks.SWAMP_IRON_BLOCK);
                         entries.add(ModItems.SWAMP_IRON_RAW);
                         entries.add(ModItems.SWAMP_IRON_INGOT);
 
