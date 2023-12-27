@@ -10,6 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+import javax.sound.midi.MidiChannel;
+
 public class ModItemGroups {
 
 
@@ -33,6 +35,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE);
                         entries.add(ModBlocks.NETHER_SWAMP_IRON_ORE);
                         entries.add(ModBlocks.END_STONE_SWAMP_IRON_ORE);
+
+                        //Metal Detector as an example for an advanced item
+                        entries.add(ModItems.METAL_DETECTOR);
 
 
                     }).build()

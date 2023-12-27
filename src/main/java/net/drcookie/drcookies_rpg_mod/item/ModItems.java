@@ -1,6 +1,7 @@
 package net.drcookie.drcookies_rpg_mod.item;
 
 import net.drcookie.drcookies_rpg_mod.DrCookiesRPGMod;
+import net.drcookie.drcookies_rpg_mod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -16,6 +17,11 @@ public class ModItems {
     public static final Item SWAMP_IRON_INGOT = registerItem("swamp_iron_ingot", new Item( new FabricItemSettings()));
 
     public static final Item COIN_COPPER = registerItem("coin_copper", new Item( new FabricItemSettings()));
+
+
+    //example for an advanced item with own class and maximum durability
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem( new FabricItemSettings().maxDamage(64)));
 
 
 
