@@ -62,6 +62,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.SLIME_BERRY);
 
+                        //Dessert Stuff
+                        entries.add(ModItems.COMBUSTILY_BUD);
+
                     }).build()
 
     );

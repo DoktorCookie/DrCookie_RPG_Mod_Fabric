@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item SWAMP_IRON_INGOT = registerItem("swamp_iron_ingot", new Item( new FabricItemSettings()));
     public static final Item SLIME_BERRY = registerItem("slime_berry", new Item( new FabricItemSettings()
             .food(ModFoodComponents.SLIME_BERRY)));
+    public static final Item COMBUSTILY_BUD = registerItem("combustily_bud", new Item( new FabricItemSettings()));
 
 
 
