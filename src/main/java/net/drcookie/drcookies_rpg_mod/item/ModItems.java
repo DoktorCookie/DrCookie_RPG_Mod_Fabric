@@ -13,10 +13,23 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    //Swamp Stuff
+
     public static final Item SWAMP_IRON_RAW = registerItem("swamp_iron_raw", new Item( new FabricItemSettings()));
     public static final Item SWAMP_IRON_INGOT = registerItem("swamp_iron_ingot", new Item( new FabricItemSettings()));
+    public static final Item SLIME_BERRY = registerItem("slime_berry", new Item( new FabricItemSettings()
+            .food(ModFoodComponents.SLIME_BERRY)));
+
+
+
+
+
+    //Misc Stuff
 
     public static final Item COIN_COPPER = registerItem("coin_copper", new Item( new FabricItemSettings()));
+
+
+
 
 
     //example for an advanced item with own class and maximum durability

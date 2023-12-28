@@ -53,14 +53,14 @@ public class ModItemGroups {
 
 
 
-                        //Swamp Stuff: Swamp Iron
+                        //Swamp Stuff
                         entries.add(ModBlocks.SWAMP_IRON_ORE);
-
-
                         entries.add(ModBlocks.SWAMP_IRON_RAW_BLOCK);
                         entries.add(ModBlocks.SWAMP_IRON_BLOCK);
                         entries.add(ModItems.SWAMP_IRON_RAW);
                         entries.add(ModItems.SWAMP_IRON_INGOT);
+
+                        entries.add(ModItems.SLIME_BERRY);
 
                     }).build()
 
