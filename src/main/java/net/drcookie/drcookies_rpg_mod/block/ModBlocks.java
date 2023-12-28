@@ -1,6 +1,7 @@
 package net.drcookie.drcookies_rpg_mod.block;
 
 import net.drcookie.drcookies_rpg_mod.DrCookiesRPGMod;
+import net.drcookie.drcookies_rpg_mod.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -53,6 +54,12 @@ public class ModBlocks {
     public static final Block END_STONE_SWAMP_IRON_ORE = registerBlock("end_stone_swamp_iron_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 
+
+
+
+    //advanced block as a test
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
 

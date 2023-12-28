@@ -38,6 +38,8 @@ public class ModItemGroups {
 
                         //Metal Detector as an example for an advanced item
                         entries.add(ModItems.METAL_DETECTOR);
+                        //Sound Block as an example for an advanced block
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
 
                     }).build()
