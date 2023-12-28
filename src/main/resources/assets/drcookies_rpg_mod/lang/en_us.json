@@ -20,7 +20,9 @@
 
   "itemgroup.rpg_misc": "DRPG Misc",
   "itemgroup.rpg_dev": "DRPG In Development",
-  "itemgroup.rpg_biome_additions": "DRPG Biome Additions"
+  "itemgroup.rpg_biome_additions": "DRPG Biome Additions",
+
+  "tooltip.drcookies_rpg_mod.metal_detector.tooltip": "Finds Diamond and Iron Ore"
 
 }
 
