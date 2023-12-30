@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "swamp_iron_ingot",
+  "ingredient": {
+    "item": "drcookies_rpg_mod:end_stone_swamp_iron_ore"
+  },
+  "result": "drcookies_rpg_mod:swamp_iron_ingot"
+}

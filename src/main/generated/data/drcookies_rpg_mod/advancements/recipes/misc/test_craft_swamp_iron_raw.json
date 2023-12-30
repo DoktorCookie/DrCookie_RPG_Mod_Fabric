@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_swamp_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "drcookies_rpg_mod:swamp_iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:test_craft_swamp_iron_raw"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone",
+      "has_swamp_iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:test_craft_swamp_iron_raw"
+    ]
+  }
+}

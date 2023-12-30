@@ -88,9 +88,8 @@ public class MetalDetectorItem extends Item {
     //Functions through evaluating the found Block State
     private boolean isValuableBlock(BlockState state) {
 
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
-        //Tag version doesn't work anymore
-        //return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
+
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
 
     }
 

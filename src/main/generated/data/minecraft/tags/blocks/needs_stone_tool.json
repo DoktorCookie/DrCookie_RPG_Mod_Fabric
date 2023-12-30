@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "drcookies_rpg_mod:swamp_iron_ore",
+    "drcookies_rpg_mod:swamp_iron_block",
+    "drcookies_rpg_mod:swamp_iron_raw_block"
+  ]
+}

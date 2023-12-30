@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "drcookies_rpg_mod:block/deepslate_swamp_iron_ore"
+  }
+}
