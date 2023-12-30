@@ -1,5 +1,6 @@
 package net.drcookie.drcookies_rpg_mod.item.custom;
 
+import net.drcookie.drcookies_rpg_mod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -88,6 +89,8 @@ public class MetalDetectorItem extends Item {
     private boolean isValuableBlock(BlockState state) {
 
         return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        //Tag version doesn't work anymore
+        //return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
 
     }
 
