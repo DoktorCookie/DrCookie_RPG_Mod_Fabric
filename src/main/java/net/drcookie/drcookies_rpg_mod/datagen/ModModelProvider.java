@@ -26,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_SWAMP_IRON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SWAMP_IRON_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SWAMP_IRON_RAW_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROTTING_MUD_BRICKS);
         //Dev Stuff
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 

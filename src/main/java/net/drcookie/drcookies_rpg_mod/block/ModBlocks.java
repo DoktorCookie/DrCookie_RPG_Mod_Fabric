@@ -54,7 +54,8 @@ public class ModBlocks {
     public static final Block END_STONE_SWAMP_IRON_ORE = registerBlock("end_stone_swamp_iron_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 
-
+    public static final Block ROTTING_MUD_BRICKS = registerBlock("rotting_mud_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).mapColor(MapColor.DIRT_BROWN)));
 
 
     //advanced block as a test
