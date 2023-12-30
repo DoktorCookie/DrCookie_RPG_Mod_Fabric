@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:swamp_iron_raw"
+        "recipe": "minecraft:swamp_iron_raw_block_to_swamp_iron_raw"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:swamp_iron_raw"
+      "minecraft:swamp_iron_raw_block_to_swamp_iron_raw"
     ]
   }
 }

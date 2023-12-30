@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_swamp_iron_raw": {
+    "has_swamp_iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "drcookies_rpg_mod:swamp_iron_raw"
+              "drcookies_rpg_mod:swamp_iron_ingot"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:swamp_iron_raw_block"
+        "recipe": "minecraft:swamp_iron_ingot_to_swamp_iron_nuggets"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_swamp_iron_raw"
+      "has_swamp_iron_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:swamp_iron_raw_block"
+      "minecraft:swamp_iron_ingot_to_swamp_iron_nuggets"
     ]
   }
 }

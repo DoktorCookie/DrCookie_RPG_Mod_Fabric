@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "swamp_iron_raw",
   "key": {
     "I": {
       "item": "drcookies_rpg_mod:swamp_iron_ingot"

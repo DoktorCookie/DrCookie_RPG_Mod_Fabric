@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "swamp_iron_ingot",
   "ingredients": [
     {
       "item": "drcookies_rpg_mod:swamp_iron_block"

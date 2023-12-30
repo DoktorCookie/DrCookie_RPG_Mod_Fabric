@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "swamp_iron_raw",
+  "ingredients": [
+    {
+      "item": "drcookies_rpg_mod:swamp_iron_raw_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "drcookies_rpg_mod:swamp_iron_raw"
+  }
+}

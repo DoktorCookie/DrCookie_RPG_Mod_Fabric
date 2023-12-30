@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.7,
-  "group": "swamp_iron_ingot",
+  "group": "swamp_iron_ingot_blasting",
   "ingredient": {
     "item": "drcookies_rpg_mod:swamp_iron_raw"
   },
