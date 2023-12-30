@@ -61,6 +61,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SWAMP_IRON_INGOT);
                         entries.add(ModItems.SWAMP_IRON_NUGGET);
 
+                        entries.add(ModItems.ROTTING_MUD);
+
                         entries.add(ModItems.SLIME_BERRY);
 
                         //Dessert Stuff

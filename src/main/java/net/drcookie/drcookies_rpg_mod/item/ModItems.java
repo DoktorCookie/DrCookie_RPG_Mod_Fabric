@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item SWAMP_IRON_RAW = registerItem("swamp_iron_raw", new Item( new FabricItemSettings()));
     public static final Item SWAMP_IRON_INGOT = registerItem("swamp_iron_ingot", new Item( new FabricItemSettings()));
     public static final Item SWAMP_IRON_NUGGET = registerItem("swamp_iron_nugget", new Item( new FabricItemSettings()));
+    public static final Item ROTTING_MUD = registerItem("rotting_mud", new Item( new FabricItemSettings()));
     public static final Item SLIME_BERRY = registerItem("slime_berry", new Item( new FabricItemSettings()
             .food(ModFoodComponents.SLIME_BERRY)));
     //Dessert Stuff

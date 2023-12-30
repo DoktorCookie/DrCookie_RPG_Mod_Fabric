@@ -1,4 +1,4 @@
-// 1.20.4	2023-12-30T20:54:52.5067941	DrCookies RPG Mod/Model Definitions
+// 1.20.4	2023-12-30T21:00:30.650177	DrCookies RPG Mod/Model Definitions
 1d6c5b4ee7d877022744da1bb5e6e40eda28bc9b assets\drcookies_rpg_mod\models\block\deepslate_swamp_iron_ore.json
 1f75eaa98040307857b1c2e060a60b2050b70081 assets\drcookies_rpg_mod\models\block\end_stone_swamp_iron_ore.json
 204fe75df5dd4d9b1066323873c8d869874a875b assets\drcookies_rpg_mod\models\item\slime_berry.json
@@ -14,8 +14,8 @@ fa132f9a65bd44e9c43dbbafb6ad47840a663078 assets\drcookies_rpg_mod\models\item\sw
 f611a7b2cc85b5817b254fadad5fbd97301ff8b3 assets\drcookies_rpg_mod\blockstates\swamp_iron_ore.json
 9d16ef0816adc7e5283800de334c235d8a5e86d6 assets\drcookies_rpg_mod\models\block\swamp_iron_raw_block.json
 0c937d1b682e8edad705a5c6378ca6a5b9375e2d assets\drcookies_rpg_mod\models\item\sound_block.json
-6ef6aea43309901199140127c646e3fd361d692e assets\drcookies_rpg_mod\models\block\sound_block.json
 288b1efc58ed566694b76dba67bfda98bc8dd3e5 assets\drcookies_rpg_mod\models\item\combustily_bud.json
+6ef6aea43309901199140127c646e3fd361d692e assets\drcookies_rpg_mod\models\block\sound_block.json
 ee111ece8b92152a53cb2ab4e07283542c2f4999 assets\drcookies_rpg_mod\blockstates\swamp_iron_raw_block.json
 af0d93ac09be6f0687f08162c7a3793ccf4d9f3c assets\drcookies_rpg_mod\models\item\nether_swamp_iron_ore.json
 79365a59d16cefa74e9f9a4aaede2c63ec4ad651 assets\drcookies_rpg_mod\blockstates\deepslate_swamp_iron_ore.json
@@ -27,3 +27,4 @@ db9fd864d7ad391e7b07463bc35f1588822a4f50 assets\drcookies_rpg_mod\models\item\en
 9a6c4372c1892ac882845aec8980579198ab3b3a assets\drcookies_rpg_mod\models\block\nether_swamp_iron_ore.json
 469ead7acc1560a776c0b220e3bda2d13c873737 assets\drcookies_rpg_mod\blockstates\nether_swamp_iron_ore.json
 94eb5b14156070e31d7964ba1a3e6ba9b975fcb3 assets\drcookies_rpg_mod\models\item\swamp_iron_ore.json
+d973266bb71b29e5ce3c7efac54c99332be8774c assets\drcookies_rpg_mod\models\item\rotting_mud.json

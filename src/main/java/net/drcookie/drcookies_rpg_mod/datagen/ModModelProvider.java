@@ -39,6 +39,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SWAMP_IRON_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWAMP_IRON_RAW, Models.GENERATED);
         itemModelGenerator.register(ModItems.SLIME_BERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ROTTING_MUD, Models.GENERATED);
         //Dessert Stuff
         itemModelGenerator.register(ModItems.COMBUSTILY_BUD, Models.GENERATED);
         //Misc Stuff
