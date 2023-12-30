@@ -59,6 +59,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SWAMP_IRON_BLOCK);
                         entries.add(ModItems.SWAMP_IRON_RAW);
                         entries.add(ModItems.SWAMP_IRON_INGOT);
+                        entries.add(ModItems.SWAMP_IRON_NUGGET);
 
                         entries.add(ModItems.SLIME_BERRY);
 
