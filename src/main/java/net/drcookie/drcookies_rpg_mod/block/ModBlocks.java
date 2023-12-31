@@ -4,10 +4,7 @@ import net.drcookie.drcookies_rpg_mod.DrCookiesRPGMod;
 import net.drcookie.drcookies_rpg_mod.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -18,6 +15,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
+
+    /*SWAMP STUFF*/
 
     public static final Block SWAMP_IRON_RAW_BLOCK = registerBlock("swamp_iron_raw_block",
 
@@ -38,11 +37,25 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
 
 
+    //Swamp Iron Blocks and nonBlockBlocks
     public static final Block SWAMP_IRON_BLOCK = registerBlock("swamp_iron_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.PALE_GREEN)));
+    public static final Block SWAMP_IRON_BUTTON = registerBlock("swamp_iron_button",
+            new ButtonBlock(BlockSetType.IRON,10 ,FabricBlockSettings.copyOf(ModBlocks.SWAMP_IRON_BLOCK)));
+    public static final Block SWAMP_IRON_PRESSURE_PLATE = registerBlock("swamp_iron_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(ModBlocks.SWAMP_IRON_BLOCK)));
+    public static final Block SWAMP_IRON_FENCE = registerBlock("swamp_iron_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.SWAMP_IRON_BLOCK)));
+    public static final Block SWAMP_IRON_FENCE_GATE = registerBlock("swamp_iron_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA ,FabricBlockSettings.copyOf(ModBlocks.SWAMP_IRON_BLOCK)));
+    public static final Block SWAMP_IRON_DOOR = registerBlock("swamp_iron_door",
+            new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(ModBlocks.SWAMP_IRON_BLOCK).nonOpaque()));
+    public static final Block SWAMP_IRON_TRAPDOOR = registerBlock("swamp_iron_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(ModBlocks.SWAMP_IRON_BLOCK).nonOpaque()));
+    //ToDo: Add Swamp Iron Bars and remove the fence, fence gate if not needed as template anymore
 
 
-
+    //Swamp Iron Ore and Variants
     //UniformIntProvider: Defines EXP values
     public static final Block SWAMP_IRON_ORE = registerBlock("swamp_iron_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(2f)));
@@ -54,13 +67,35 @@ public class ModBlocks {
     public static final Block END_STONE_SWAMP_IRON_ORE = registerBlock("end_stone_swamp_iron_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 
+    //Rotting Mud Bricks and derivatives
     public static final Block ROTTING_MUD_BRICKS = registerBlock("rotting_mud_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.BRICKS).mapColor(MapColor.DIRT_BROWN)));
+    public static final Block ROTTING_MUD_BRICKS_STAIRS = registerBlock("rotting_mud_bricks_stairs",
+            new StairsBlock(ModBlocks.ROTTING_MUD_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.ROTTING_MUD_BRICKS)));
+    public static final Block ROTTING_MUD_BRICKS_SLAB = registerBlock("rotting_mud_bricks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.ROTTING_MUD_BRICKS)));
+    public static final Block ROTTING_MUD_BRICKS_WALL = registerBlock("rotting_mud_bricks_wall",
+            new WallBlock(FabricBlockSettings.copyOf(ModBlocks.ROTTING_MUD_BRICKS)));
 
+
+
+
+    /*DEV STUFF*/
 
     //advanced block as a test
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+
+
+
+
+
+
+
+
+
+
 
 
 

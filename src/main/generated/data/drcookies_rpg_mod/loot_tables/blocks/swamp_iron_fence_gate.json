@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "drcookies_rpg_mod:swamp_iron_fence_gate"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

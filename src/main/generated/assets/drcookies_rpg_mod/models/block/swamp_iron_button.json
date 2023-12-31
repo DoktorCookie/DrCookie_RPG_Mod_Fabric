@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "drcookies_rpg_mod:block/swamp_iron_block"
+  }
+}

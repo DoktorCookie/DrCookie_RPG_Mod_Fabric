@@ -56,12 +56,23 @@ public class ModItemGroups {
                         //Swamp Stuff
                         entries.add(ModBlocks.SWAMP_IRON_ORE);
                         entries.add(ModBlocks.SWAMP_IRON_RAW_BLOCK);
+
                         entries.add(ModBlocks.SWAMP_IRON_BLOCK);
+                        entries.add(ModBlocks.SWAMP_IRON_FENCE);
+                        entries.add(ModBlocks.SWAMP_IRON_FENCE_GATE);
+                        entries.add(ModBlocks.SWAMP_IRON_DOOR);
+                        entries.add(ModBlocks.SWAMP_IRON_TRAPDOOR);
+                        entries.add(ModBlocks.SWAMP_IRON_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SWAMP_IRON_BUTTON);
+
                         entries.add(ModItems.SWAMP_IRON_RAW);
                         entries.add(ModItems.SWAMP_IRON_INGOT);
                         entries.add(ModItems.SWAMP_IRON_NUGGET);
 
                         entries.add(ModBlocks.ROTTING_MUD_BRICKS);
+                        entries.add(ModBlocks.ROTTING_MUD_BRICKS_STAIRS);
+                        entries.add(ModBlocks.ROTTING_MUD_BRICKS_SLAB);
+                        entries.add(ModBlocks.ROTTING_MUD_BRICKS_WALL);
                         entries.add(ModItems.ROTTING_MUD);
 
                         entries.add(ModItems.SLIME_BERRY);
