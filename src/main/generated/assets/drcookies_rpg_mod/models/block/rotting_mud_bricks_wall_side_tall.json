@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "drcookies_rpg_mod:block/rotting_mud_bricks"
+  }
+}

@@ -61,5 +61,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_SWAMP_IRON_ORE)
         ;
 
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.SWAMP_IRON_FENCE)
+        ;
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SWAMP_IRON_FENCE_GATE)
+        ;
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ROTTING_MUD_BRICKS_WALL)
+        ;
+
+
     }
 }

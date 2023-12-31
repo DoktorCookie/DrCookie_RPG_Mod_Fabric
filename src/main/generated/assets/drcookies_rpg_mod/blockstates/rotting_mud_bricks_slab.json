@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "drcookies_rpg_mod:block/rotting_mud_bricks_slab"
+    },
+    "type=double": {
+      "model": "drcookies_rpg_mod:block/rotting_mud_bricks"
+    },
+    "type=top": {
+      "model": "drcookies_rpg_mod:block/rotting_mud_bricks_slab_top"
+    }
+  }
+}

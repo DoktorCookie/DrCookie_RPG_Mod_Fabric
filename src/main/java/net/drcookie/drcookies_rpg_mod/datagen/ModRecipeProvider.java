@@ -34,6 +34,9 @@ public class ModRecipeProvider  extends FabricRecipeProvider {
         //More Examples: RecipeProvider class (MMB click on any)
 
 
+        /*SWAMP STUFF*/
+
+
         //Smelting and Blasting things to swamp iron ingot
         offerSmelting(exporter, SWAMP_IRON_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.SWAMP_IRON_INGOT,
                 0.7f, 200, "swamp_iron_ingot");
@@ -67,6 +70,13 @@ public class ModRecipeProvider  extends FabricRecipeProvider {
                 RecipeCategory.DECORATIONS, ModItems.SWAMP_IRON_INGOT,
                 "swamp_iron_nuggets_to_swamp_iron_ingot", "swamp_iron_ingot",
                 "swamp_iron_ingot_to_swamp_iron_nuggets", "swamp_iron_nugget");
+
+        //ToDo: Add Recipes for Swamp Iron: Door, Trapdoor, Button, Pressure Plate, (Fence, Fence Gate)
+        //ToDo. Add Recipes for Rotting Mud Bricks: Slab, Stairs and Wall
+
+        //using create methods: call .criterion and .offerTo are needed, Ingredients need to be called using Ingredients.ofItems(ID)
+        //for example createDoorRecipe()
+        //offer methods don't need this
 
 
 

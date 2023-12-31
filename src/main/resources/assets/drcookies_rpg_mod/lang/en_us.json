@@ -12,12 +12,24 @@
 
 
   "block.drcookies_rpg_mod.swamp_iron_raw_block": "Block of Raw Swamp Iron",
-  "block.drcookies_rpg_mod.swamp_iron_block": "Block of Swamp Iron",
   "block.drcookies_rpg_mod.swamp_iron_ore": "Swamp Iron Ore",
   "block.drcookies_rpg_mod.deepslate_swamp_iron_ore": "Deepslate Swamp Iron Ore",
   "block.drcookies_rpg_mod.nether_swamp_iron_ore": "Nether Swamp Iron Ore",
   "block.drcookies_rpg_mod.end_stone_swamp_iron_ore": "End Stone Swamp Iron Ore",
+
+  "block.drcookies_rpg_mod.swamp_iron_block": "Block of Swamp Iron",
+  "block.drcookies_rpg_mod.swamp_iron_button": "Swamp Iron Button",
+  "block.drcookies_rpg_mod.swamp_iron_pressure_plate": "Swamp Iron Pressure Plate",
+  "block.drcookies_rpg_mod.swamp_iron_fence": "Swamp Iron Fence",
+  "block.drcookies_rpg_mod.swamp_iron_fence_gate": "Swamp Iron Fence Gate",
+  "block.drcookies_rpg_mod.swamp_iron_door": "Swamp Iron Door",
+  "block.drcookies_rpg_mod.swamp_iron_trapdoor": "Swamp Iron Trapdoor",
+
   "block.drcookies_rpg_mod.rotting_mud_bricks": "Rotting Mud Bricks",
+  "block.drcookies_rpg_mod.rotting_mud_bricks_wall": "Rotting Mud Bricks Wall",
+  "block.drcookies_rpg_mod.rotting_mud_bricks_stairs": "Rotting Mud Bricks Stairs",
+  "block.drcookies_rpg_mod.rotting_mud_bricks_slab": "Rotting Mud Bricks Slab",
+
   "block.drcookies_rpg_mod.sound_block": "Sound Block",
 
 

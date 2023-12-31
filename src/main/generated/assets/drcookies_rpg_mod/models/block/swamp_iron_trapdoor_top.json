@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "drcookies_rpg_mod:block/swamp_iron_trapdoor"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "drcookies_rpg_mod:block/rotting_mud_bricks",
+    "side": "drcookies_rpg_mod:block/rotting_mud_bricks",
+    "top": "drcookies_rpg_mod:block/rotting_mud_bricks"
+  }
+}

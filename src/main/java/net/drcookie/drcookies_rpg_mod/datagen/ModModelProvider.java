@@ -24,9 +24,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_SWAMP_IRON_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_SWAMP_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SWAMP_IRON_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SWAMP_IRON_RAW_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROTTING_MUD_BRICKS);
+
+        BlockStateModelGenerator.BlockTexturePool swampIronPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SWAMP_IRON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool rottingMudBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ROTTING_MUD_BRICKS);
+
+        swampIronPool.fence(ModBlocks.SWAMP_IRON_FENCE);
+        swampIronPool.fenceGate(ModBlocks.SWAMP_IRON_FENCE_GATE);
+        swampIronPool.button(ModBlocks.SWAMP_IRON_BUTTON);
+        swampIronPool.pressurePlate(ModBlocks.SWAMP_IRON_PRESSURE_PLATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.SWAMP_IRON_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.SWAMP_IRON_TRAPDOOR);
+
+        rottingMudBricksPool.slab(ModBlocks.ROTTING_MUD_BRICKS_SLAB);
+        rottingMudBricksPool.stairs(ModBlocks.ROTTING_MUD_BRICKS_STAIRS);
+        rottingMudBricksPool.wall(ModBlocks.ROTTING_MUD_BRICKS_WALL);
+
         //Dev Stuff
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 

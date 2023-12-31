@@ -16,6 +16,7 @@ import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.util.ModStatus;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
@@ -34,6 +35,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_SWAMP_IRON_ORE, ModItems.SWAMP_IRON_RAW));
         addDrop(ModBlocks.NETHER_SWAMP_IRON_ORE, copperLikeOreDrops(ModBlocks.NETHER_SWAMP_IRON_ORE, ModItems.SWAMP_IRON_RAW));
         addDrop(ModBlocks.END_STONE_SWAMP_IRON_ORE, copperLikeOreDrops(ModBlocks.END_STONE_SWAMP_IRON_ORE, ModItems.SWAMP_IRON_RAW));
+
+        addDrop(ModBlocks.SWAMP_IRON_FENCE);
+        addDrop(ModBlocks.SWAMP_IRON_FENCE_GATE);
+        addDrop(ModBlocks.SWAMP_IRON_BUTTON);
+        addDrop(ModBlocks.SWAMP_IRON_TRAPDOOR);
+        addDrop(ModBlocks.SWAMP_IRON_PRESSURE_PLATE);
+        addDrop(ModBlocks.SWAMP_IRON_DOOR, doorDrops(ModBlocks.SWAMP_IRON_DOOR));
+
+        addDrop(ModBlocks.ROTTING_MUD_BRICKS_SLAB, slabDrops(ModBlocks.ROTTING_MUD_BRICKS_SLAB));
+        addDrop(ModBlocks.ROTTING_MUD_BRICKS_STAIRS);
+        addDrop(ModBlocks.ROTTING_MUD_BRICKS_WALL);
+
+
 
 
     }
